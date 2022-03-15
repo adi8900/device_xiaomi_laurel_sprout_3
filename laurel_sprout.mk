@@ -445,8 +445,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/interfaces \
     vendor/qcom/opensource/commonsys/system/bt
 
-QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)
-
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
